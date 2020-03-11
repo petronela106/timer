@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Pause_Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/minusBtn"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/minus"
+            android:text="@string/minus_btn" />
+
+        <TextView
+            android:id="@+id/pause"
+            android:layout_width="193dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="100dp"
+            android:gravity="center"
+            android:text="@string/pause"
+            android:textColor="@android:color/black"
+            android:textIsSelectable="false"
+            android:textSize="60sp" />
+
+        <Button
+            android:id="@+id/plusBtn"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/plus"
+            android:text="@string/plus_btn" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/resetBtn"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="60dp"
+            android:background="@drawable/reset"
+            android:text="@string/reset_btn" />
+
+        <Button
+            android:id="@+id/startBtn"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="60dp"
+            android:background="@drawable/play"
+            android:text="@string/start_btn" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/backBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="200dp"
+        android:text="@string/back_btn" />
+
+</LinearLayout>
